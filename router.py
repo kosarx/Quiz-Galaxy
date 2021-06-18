@@ -1,5 +1,4 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 from flask import render_template, redirect, url_for, abort
 from flask import request, session
 import version_console as authent #useful only for database handling
