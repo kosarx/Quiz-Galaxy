@@ -1,0 +1,812 @@
+1.The script tag must be placed in:
+a) the head tag
+b) the head or body
+c) the title or head
+d) after the body tag
+EOQ b
+2.JavaScript Code can be called by using:
+a) RMI
+b) Triggering Event
+c) Preprocessor
+d) Function/Method
+EOQ d
+3.JavaScript can be written:
+a) directly into JS file and included into HTML
+b) directly on the server page
+c) directly into HTML pages
+d) directly into the css file
+EOQ a
+4.Which of the following Attribute is used to include External JS code inside your HTML Document?
+a) src
+b) ext
+c) script
+d) link
+EOQ a
+5.What will be the output of the following JavaScript code?
+<p id="elem"></p>
+var txt1 = "good";
+var txt2 = "day";
+document.getElementById("elem").innerHTML = txt1 + txt2;
+a) good day
+b) goodday
+c) error
+d) undefined
+EOQ b
+6.What will be the output of the following JavaScript code?
+<p id="demo"></p>
+<script>
+var x = 10;
+x *= 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+a) 5
+b) 10
+c) 50
+d) Error
+EOQ c
+7.What will be the output of the following JavaScript code?
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = typeof "John" 
+</script>
+a) integer
+b) number
+c) string
+d) error
+EOQ c
+8.A hexadecimal literal begins with:
+a) 00
+b) 0x
+c) 0X
+d) Both 0x and 0X
+EOQ d
+9.JavaScript _________ when there is an indefinite or an infinite value during an arithmetic computation.
+a) Prints an exception error
+b) Prints an overflow error
+c) Displays “Infinity”
+d) Prints the value as such
+EOQ c
+10.Which of the following is not considered as an error in JavaScript?
+a) Syntax error
+b) Range error
+c) Division by zero
+d) Missing of Bracket
+EOQ c
+11.The code that has to be used to check if “a” is not equal to “null” is:
+a) if( a!=null )
+b) if( !a )
+c) if( a!null )
+d) if( a!==null )
+EOQ d
+12.Assume that we have to convert “false” that is a non-string to string. The command that we use is (without invoking the “new” operator).
+a) false.toString()
+b) String(false)
+c) String newvariable=”false”
+d) Both false.toString() and String(false)
+EOQ d
+13.A function definition expression can be called as:
+a) Function prototype
+b) Function literal
+c) Function calling
+d) Function declaration
+EOQ b
+14.The expression of calling (or executing) a function or method in JavaScript is called:
+a) Fuctional Invocation
+b) Functional expression
+c) Invocation expression
+d) Property Access Expression
+EOQ c
+15.Which of the operator is used to test if a particular property exists or not?
+a) in
+b) exist
+c) within
+d) exists
+EOQ a
+16.What will be the output of the following JavaScript code?
+string  a = ”hi”;
+string  b =”there”;
+alert( a+b );
+a) hi
+b) there
+c) hithere
+d) undefined
+EOQ c
+17.What will be the output of the following JavaScript code?
+<p id="demo" onclick="myFunction()"> Click me </p>
+<script>
+function myFunction() 
+{
+    document.getElementById("demo").innerHTML = Math.cbrt(125);
+}
+</script>
+a) 125
+b) 25
+c) 5
+d) Error
+EOQ c
+18.What is a block statement in JavaScript?
+a) a conditional block
+b) a block that contains a single statement
+c) can contain both conditional and single statement blocks
+d) a block that combines multiple statements into a single compound statement
+EOQ d
+19.When an empty statement is encountered, a JavaScript interpreter:
+a) Ignores the statement
+b) Prompts to complete the statement
+c) Throws an error
+d) Shows a warning
+EOQ a
+20.What will be the output of the following JavaScript code?
+int a=4;
+int b=1;
+int c=0;
+If( a==b )
+    document.write( a );
+else if( a==c )
+    document.write( a );
+else
+    document.write( c );
+a) 4
+b) 1
+c) Error
+d) 0
+EOQ d
+21.Will the following JavaScript code work?
+function tail(o) 
+{ 
+    for (; o.next; o = o.next) ;
+    return o;
+}
+a) No, this will throw an exception as only numerics can be used in a for loop
+b) No, this will not iterate
+c) Yes, this will work
+d) No, this will result in a runtime error with the message “Cannot use Linked List”
+EOQ c
+22.What will be the role of the continue keyword in the following JavaScript code snippet?
+while (a != 0)
+{
+   if (a == 1) 
+       continue;
+   else 
+       a++;
+}
+a) The continue keyword restarts the loop
+b) The continue keyword skips the next iteration
+c) The continue keyword skips the rest of the statements in that iteration
+d) The continue keyword breaks out of the loop
+EOQ c
+23.What is the task of the statement debugger in the following JavaScript code?
+function f(o) 
+{
+     if ( o === undefined ) debugger;
+}
+a) It does nothing but a simple breakpoint
+b) It debugs the error in that statement and restarts the statement's execution
+c) It is used as a keyword that debugs the entire program at once
+d) It is used to find error in the statement
+EOQ a
+24.What will be the output of the following JavaScript code?
+var a = 10;
+do {
+  	a += 1;
+  	console.log( a );
+} while (a < 5);
+a) 11121314
+b) 1112
+c) 12345
+d) 11
+EOQ d
+25.The purpose of extensible attribute is to:
+a) make all of the own properties of that object non configurable
+b) to configure and bring a writable property
+c) lock down objects into a known state and prevent outside tampering
+d) to include new properties into the object
+EOQ c
+26.What will be the output of the following JavaScript code?
+const obj = {prop: 12};  
+Object.preventExtensions(obj);  
+console.log( Object.isExtensible(obj));
+a) 12
+b) false
+c) true
+d) error
+EOQ b
+27.What statement is true for the following JavaScript code?
+var count = [1,,3];
+a) The omitted value takes “undefined”
+b) This results in an error
+c) This results in an exception
+d) The omitted value takes a random value
+EOQ a
+28.The pop() method of an array does which of the following?
+a) reduces the total length by 1
+b) increases the total length by 1
+c) prints the last element of the array
+d) updates the first element of the array
+EOQ a
+29.What will be the possible output of the following JavaScript code?
+var group = [1,2,3,4,5];
+group.slice(0,3);
+a) Returns [1,2,3,4]
+b) Returns [4,5]
+c) Returns [1,2,3]
+d) Returns [1,2,3,4,5]
+EOQ c
+30.The primary purpose of the array map() function is that it:
+a) passes each element of the array and returns the mapped elements
+b) maps the elements of another array into itself
+c) passes each element of the array on which it is invoked to the function specified,
+and returns an array containing the values returned by that function
+d) passes the elements of the array into a different array
+EOQ c
+31.What will be the output of the following JavaScript code?
+var values=[1,2,3,4];
+var res=values.slice(0);
+document.writeln(res);
+a) 1, 2, 3, 4
+b) 2, 3, 4
+c) 1, 3, 4
+d) error
+EOQ d
+32.The function definitions in JavaScript begins with:
+a) Return type, Function keyword, Identifier and Parentheses
+b) Return type and Identifier
+c) Identifier and Parentheses
+d) Identifier and Return type
+EOQ a
+33.What will happen if a return statement does not have an expression?
+a) It returns 0
+b) It will raise an exception
+c) It returns undefined value
+d) It will raise an error
+EOQ c
+34.The function stops its execution when it encounters:
+a) continue
+b) break
+c) goto
+d) return
+EOQ d
+35.Which keyword is used to define a function in javascript?
+a) main
+b) function
+c) int
+d) void
+EOQ b
+36.What will be the output of the following JavaScript code?
+function info()
+{  
+    int x=1;
+    int y=2;
+    return x*y;  
+}  
+document.write(info());
+a) 1
+b) 2
+c) 3
+d) error
+EOQ b
+37.What will be the output of the following JavaScript statement?
+var grand_Total=eval("10*10+5");
+a) Exception is thrown
+b) 105 as an integer value
+c) 105 as a string
+d) 10*10+5
+EOQ b
+38.Is the following JavaScript code correct?
+var value = (function(x) {return x*x;}(10));
+a) Yes
+b) No, it raises Error
+c) No, an exception will occur
+d) Memory leak happens
+EOQ a
+39.If you have a function func and an object obj, you can define a method named meth of obj with:
+a) obj.meth=meth.func;
+b) obj.meth=func;
+c) obj=func.meth;
+d) obj=func;
+EOQ b
+40.What will be the output of the following JavaScript code?
+var add=new Function("num1","num2","return num1+num2");
+document.writeln(add(2,5));
+a) 2
+b) 5
+c) Error
+d) 7
+EOQ d
+41.Which of the following is not an example of closures?
+a) Objects
+b) Variables
+c) Functions
+d) Graphics
+EOQ d
+42.What will be the output of the following JavaScript code?
+var o = new F();
+o.constructor === F
+a) false
+b) true
+c) 0
+d) 1
+EOQ b
+43.If A is the superclass and B is the subclass, then B inheriting the superclass can be coded as:
+a) B=inherit( A );
+b) B=A.inherit();
+c) B.prototype=inherit( A );
+d) B.prototype=inherit(A.prototype);
+EOQ c
+44.What will be the output of the following JavaScript code?
+const obj = { 10: 'apples', 21: 'bananas', 23: 'carrots' };  
+console.log(Object.entries(obj)[2]);
+a) ["apples", "10"]
+b) ["10","apples"]
+c) ["21","bananas"]
+d) ["23","carrots"]
+EOQ d
+45. The keyword or the property that you use to refer to an object through which they were invoked is:
+a) from
+b) to
+c) this
+d) object
+EOQ c
+46.What will be the output of the following JavaScript code?
+const prototype1 = {};  
+const object1 = Object.create(prototype1);  
+console.log(Object.getPrototypeOf(object1) === prototype1);
+a) true
+b) false
+c) error
+d) 0
+EOQ a
+47.The four kinds of class members are:
+a) Instance methods, Instance fields, Static method, Dynamic method
+b) Global methods, Local methods, Dynamic methods, Static methods
+c) Instance fields, Non-instance fields, Dynamic methods, Global methods
+d) Instance fields, Instance methods, Class fields, Class methods
+EOQ d
+48.You can refresh the webpage in JavaScript by using:
+a) window.reload
+b) location.reload
+c) window.refresh
+d) page.refresh
+EOQ b
+49.The properties() method is a:
+a) Enumerable method
+b) Operational method
+c) Non-enumerable method
+d) Calling method
+EOQ c
+50.What will be the output of the following JavaScript code?
+<p id="elem"></p>
+<script>
+var x = 123e5;
+document.getElementById("elem").innerHTML = x ;
+</script>
+a) 0.0123
+b) 12300000
+c) Error
+d) Undefined
+EOQ b
+51.What will be the output of the following JavaScript code?
+<p id="pelem" onclick="myFunction()"> Click me</p>
+<script>
+function myFunction() 
+{
+   var res = "";
+   res = res + Number.isInteger('123');
+   document.getElementById("pelem").innerHTML = res;
+}
+</script>
+a) true
+b) false
+c) Error
+d) undefined
+EOQ b
+52.The method that performs the search-and-replace operation to strings for pattern matching is:
+a) replace()
+b) add()
+c) edit()
+d) search()
+EOQ a
+53.What will be the output of the following JavaScript code?
+System.out.println(Pattern.matches("[amn]?", "a"));
+a) true
+b) false
+c) undefined
+d) bcd
+EOQ a
+54.What expression does JavaScript use instead of '==' and '!=' ?
+a) It uses bitwise checking
+b) It uses === and !== instead
+c) It uses equals() and notequals() instead
+d) It uses equals()
+EOQ b
+55.What will be the output of the following JavaScript code?
+set.add("first");  
+set.add("second");  
+set.add("third");    
+set.clear();  
+document.writeln(set.size);
+a) 3
+b) 1
+c) 2
+d) 0
+EOQ d
+56.What will be the output of the following JavaScript code?
+set.add("1");  
+set.add("2");    
+document.writeln(set.has("3"));
+a) 3
+b) true
+c) false
+d) 2
+EOQ c
+57.What will be the output of the following JavaScript code?
+let value=value+1;
+console.log(value);
+a) 0
+b) Null
+c) Reference error
+d) NaN
+EOQ d
+58.What does the following JavaScript code do?
+data.sort( function(a,b),b-a );
+a) Sort in the alphabetical order
+b) Sort in the chronological order
+c) Sort in reverse alphabetical order
+d) Sort in reverse numerical order
+EOQ d
+59.What will be the output of the following JavaScript code?
+<p id="elem" onclick="myFunction()"> Clcik me </p>
+<script>
+function myFunction() 
+{
+     document.getElementById("elem").innerHTML = Math.trunc(8.76);
+}
+</script>
+a) 8.70
+b) 8.76
+c) 8.00
+d) Error
+EOQ c
+60.What will be the output of the following JavaScript code?
+document.writeln("<br/>navigator.appCodeName: "+navigator.appCodeName);
+a) The browser name
+b) The browser version
+c) Error
+d) Undefined
+EOQ a
+61.The main purpose of JavaScript a in web browser is to:
+a) Create animations and other visual effects
+b) Create a user interface
+c) Store user-related information for future use
+d) Enchance user navigation
+EOQ a
+62. JavaScript code between the “script” tag is called:
+a) External
+b) Non-inline
+c) Referenced
+d) Inline
+EOQ d
+63.Which of the following is a way of embedding client-side JavaScript code within HTML documents?
+a) By using a header tag
+b) External file specified by the src attribute of a “script” tag
+c) From javascript:encoding
+d) By using body tag
+EOQ b
+64.What is the code to start displaying the time when the document loads?
+a) onload = displayTime;
+b) window = displayTime;
+c) window.onload = displayTime;
+d) window.onload = Time;
+EOQ c
+65.What will be the output of the following JavaScript code?
+<p id="demo"></p>
+<script>
+var variabl1 = [2, 5];
+var variabl2 = variabl1.map(myFunction);
+document.getElementById("demo").innerHTML = variabl2;
+function myFunction(value) 
+{
+  return value * 2;
+}
+</script>
+a) 4,5
+b) 2,5
+c) 4,10
+d) Error
+EOQ c
+66.What will be the output of the following JavaScript code?
+<p id="demo"></p>
+<script>
+var arrnumbers = [36, 4, 2, 17, 22];
+var arr= arrnumbers.every(myFunction);
+document.getElementById("demo").innerHTML =arr;
+function myFunction(value) 
+{
+   return value > 10;
+}
+</script>
+a) true
+b) false
+c) 0
+d) error
+EOQ b
+67.What will be the output of the following JavaScript code?
+<p id="demo"></p>
+<script>
+var numbers = [11, 0, 9, 13, 69];
+var someOverTen = numbers.some(myFunction);
+document.getElementById("demo").innerHTML = "Some over ten is " + someOverTen;
+function myFunction(value) 
+{
+  return value > 10;
+}
+</script>
+a) true
+b) false
+c) Error
+d) Undefined
+EOQ a
+68.Which Window object method is used to display a message in a dialogue box?
+a) console.log()
+b) message()
+c) dialogue()
+d) alert()
+EOQ d
+69.Which is the property that represents the content displayed in the window?
+a) window
+b) elements
+c) document
+d) frame
+EOQ c
+70.How can a document element be selected through JavaScript by its id attribute?
+a) getElement()
+b) getElementsbyId()
+c) getElementbyId()
+d) both getElementsbyId() and getElementbyId().
+EOQ c
+71.Which is the handler method used to invoke when uncaught JavaScript exceptions occur?
+a) onexception
+b) onerror
+c) Both onexception and onerror
+d) OnError
+EOQ b
+72.What is the result of the following code?
+window.location === document.location
+a) false
+b) true
+c) Error
+d) 0
+EOQ b
+73.What will be the output of the following JavaScript code?
+<script>
+function alertNumber()
+{  
+    var number=document.getElementById("insert").value;  
+    alert(number*number*number);  
+}
+</script>
+<form>  
+     Enter No:<input type="text" id="insert" value="2" name="number"/>
+     <br/>  
+     <input type="button" value="done" onclick="alertNumber()"/>  
+</form>
+a) 4
+b) 8
+c) Error
+d) Undefined
+EOQ b
+74.What does the location property represent?
+a) Current DOM object
+b) Current URL
+c) The Document
+d) None of the above.
+EOQ b
+75.The history property belongs to which object?
+a) History
+b) Element
+c) Location
+d) Window
+EOQ a
+76.What will be the output of the following JavaScript code?
+<a>1</a>
+<a>2</a>
+<a>3</a>
+<script>
+var numAs = document.getElementsByTagName("a").length;
+alert(numAs);
+</script>
+a) 1
+b) 2
+c) 3
+d) Error
+EOQ c
+77.What will be the output of the following JavaScript code?
+<p id="myelement">Head</p>
+<script>
+   var x = document.getElementsByTagName("p").namedItem("myelement");
+   alert(x.innerHTML);
+</script>
+a) Head
+b) Element
+c) Error
+d) Undefined
+EOQ a
+78.The length property belongs to which of the following objects?
+a) Window
+b) Element
+c) History
+d) Document
+EOQ c
+79.What will be the output of the following JavaScript function?
+function myFunction() 
+{
+    document.getElementById("demo").innerHTML = Boolean(10 > 9);
+}
+a) true
+b) false
+c) Error
+d) 0
+EOQ a
+80.What will be the output of the following JavaScript code?
+var boolVar = Boolean('false');
+console.log(boolVar);
+a) false
+b) true
+c) Error
+d) Undefined
+EOQ b
+81.What will be the output of the following JavaScript function?
+function myFunction() 
+{
+  var x = "";
+  console.log(Boolean(x));
+}
+a) true
+b) false
+c) 1
+d) 0
+EOQ b
+82.What will be the output of the following JavaScript function?
+function myFunction() 
+{
+   var x = 10 / "H";
+   return (Boolean(x));
+}
+a) true
+b) false
+c) Error
+d) undefined
+EOQ b
+83.A new web browser window can be opened using which method of the Window object?
+a) createtab()
+b) Window.open()
+c) open()
+d) Window.createWindow()
+EOQ b
+84.Which of the following is the property of a Window object that holds the name of the frame?
+a) location
+b) title
+c) description
+d) name
+EOQ d
+85.An event handler, in practical terms, is:
+a) a function
+b) part of the interface
+c) a Prototype
+d) an Object
+EOQ a
+86.When is the mouseover event executed?
+a) When the mouse is moved over a new element
+b) When a button on the mouse is clicked
+c) When the mouse is both moved and clicked
+d) When the mouse is released
+EOQ a
+87.Cookie manipulation is done using which property?
+a) cookie
+b) cookies
+c) manipulateCookie
+d) Cookies
+EOQ a
+88.What will be the output of the following JavaScript code?
+<p id="elem"></p>
+<script>
+var myName = "John";
+var myName;
+document.getElementById("elem).innerHTML = myName;
+</script>
+a) Error
+b) Undefined
+c) John
+d) Garbage value
+EOQ c
+89.What will be the output of the following JavaScript code?
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = Number(true); 
+</script>
+a) 1
+b) 0
+c) Error
+d) Undefined
+EOQ a
+90.What will be the output of the following JavaScript code?
+<p id="elem"></p>
+<script>
+Var arrayNum = ["one", "two", "three",];
+arrayNum.shift();
+document.getElementById("elem").innerHTML = arr;
+</script>
+a) two three
+b) one two three
+c) one three
+d) Error
+EOQ a
+91.Which of the following is a possible way of finding all the img elements in a document?
+a) document(images)
+b) document.images[]
+c) document(img)
+d) doc(img)
+EOQ b
+92.What will be the output of the following JavaScript code?
+<p id="demo" onclick="myFunction()"> Click me</p>
+<script>
+function myFunction() 
+{
+   var num = 13.3714;
+   document.getElementById("demo").innerHTML = num.toPrecision(3);
+}
+</script>
+a) 13
+b) 13.3714
+c) 13.3
+d) 13.4
+EOQ c
+93.What does a History object contain?
+a) URL
+b) Parameters
+c) Attribute values
+d) Property
+EOQ a
+94.What kind of error notifications are shown in the console window?
+a) Syntax error
+b) Runtime error
+c) Both Syntax error and Runtime error
+d) Compilation error
+EOQ c
+95.Which of the following methods will wait for some specified milliseconds to execute a specified method?
+a) setTimeInterv()
+b) setTimeout()
+c) setTime()
+d) setInterval()
+EOQ d
+96.Which of the following is the function that will print the current page?
+a) print()
+b) printcurrent()
+c) printPage()
+d) print(document)
+EOQ a
+97.What is a heap in JavaScript?
+a) Collection of Java objects
+b) Collection of JavaScript objects
+c) Collection of memory usage values
+d) Collection of data stored in memory
+EOQ b
+98.Which of the following is an attribute to the script object?
+a) onclick
+b) onload
+c) onshow
+d) onhover
+EOQ b
+99.Which is the function that calls another function after a time interval?
+a) setTimeout()
+b) setTime()
+c) callAfter()
+d) timeSet()
+EOQ a
+100.How to find the index of a particular string?
+a) position()
+b) index()
+c) indexOf()
+d) positionOf()
+EOQ c
+EOQ 

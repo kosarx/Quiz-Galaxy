@@ -1,0 +1,1085 @@
+1.Which of the following is not a valid variable name declaration?
+a)int __a3;
+b)int __3a;
+c)int __A3;
+d)None of the mentioned
+EOQ d
+2.Which of the following is not a valid variable name declaration?
+a)int _a3;
+b)int a_3;
+c)int 3_a;
+d)int _3a
+EOQ c
+3.All keywords in C are in:
+a)LowerCase letters
+b)UpperCase letters
+c)CamelCase letters
+d)None of the above.
+EOQ d
+4.Which of the following is not a valid C variable name?
+a)int number;
+b)float rate;
+c)int variable_count;
+d)int $main;
+EOQ d
+5.Which is valid C expression?
+a)int my_num = 100,000;
+b)int my_num = 100000;
+c)int my num = 1000;
+d)int $my_num = 10000;
+EOQ b
+6.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        printf("Hello World! %d \n", x);
+        return 0;
+    }
+a)Hello World! x;
+b)Hello World! followed by a junk value
+c)Compile time error
+d)Hello World!
+EOQ c
+7.Which of the following cannot be a variable name in C?
+a)volatile
+b)true
+c)friend
+d)export
+EOQ a
+8.The format identifier ‘%i’ is also used for which data type?
+a)char
+b)int
+c)float
+d)double
+EOQ b
+9.What is the size of an int data type?
+a)4 Bytes
+b)8 Bytes
+c)Depends on the system/compiler
+d)Cannot be determined
+EOQ c
+10.What will be the output of the following C code?
+    #include  <stdio.h>
+    int main()
+    {
+       signed char chr;
+       chr = 128;
+       printf("%d\n", chr);
+       return 0;
+    }
+a)128
+b)-128
+c)Depends on the compiler
+d)None of the mentioned
+EOQ b
+11.What is short int in C programming?
+a)The basic data type of C
+b)Qualifier
+c)Short is the qualifier and int is the basic data type
+d)All of the mentioned
+12.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        float f1 = 0.1;
+        if (f1 == 0.1)
+            printf("equal\n");
+        else
+            printf("not equal\n");
+    }
+a)equal
+b)not equal
+c)output depends on the compiler
+d)error
+EOQ b
+13.What will be the output of the following C code on a 32-bit machine?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 10000;
+        double y = 56;
+        int *p = &x;
+        double *q = &y;
+        printf("p and q are %d and %d", sizeof(p), sizeof(q));
+        return 0;
+    }
+a)p and q are 4 and 4
+b)p and q are 4 and 8
+c)compiler error
+d)p and q are 2 and 8
+EOQ a
+14.Which is correct with respect to the size of the data types?
+a)char > int > float
+b)int > char > float
+c)char < int < double
+d)double > char > int
+EOQ c
+15.What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        float x = 'a';
+        printf("%f", x);
+        return 0;
+    }
+a)a
+b)run time error
+c)a.0000000
+d)97.000000
+EOQ d
+16.Which of the data types has the size that is variable?
+a) int
+b) struct
+c) float
+d) double
+EOQ b
+17.What will be the output of the following C code?
+    #include <stdio.h>
+    #define a 10
+    int main()
+    {
+        const int a = 5;
+        printf("a = %d\n", a );
+    }
+a) a = 5
+b) a = 10
+c) Compilation error
+d) Runtime error
+EOQ c
+18.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int var = 010;
+        printf("%d", var);
+    }
+a) 010
+b) 8
+c) Compilation error
+d) 10
+EOQ b
+19.What will be the output of the following C code?
+    #include <stdio.h>
+    #include <string.h>
+    int main()
+    {
+        char *str = "x";
+        char c = 'x';
+        char ary[1];
+        ary[0] = c;
+        printf("%d %d", strlen(str), strlen(ary));
+        return 0;
+    }
+a) 1 1
+b) 2 1
+c) 2 2
+d) 1 (undefined value)
+EOQ d
+20.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        const int p;
+        p = 4;
+        printf("p is %d", p);
+        return 0;
+    }
+a) p is 4
+b) Compile time error
+c) Run time error
+d) p is followed by a garbage value
+EOQ b
+21.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int k = 4;
+        int *const p = &k;
+        int r = 3;
+        p = &r;
+        printf("%d", p);
+
+    }
+a) Address of k
+b) Address of r
+c) Compile time error
+d) Address of k + address of r
+EOQ c
+22.Which of the following statement is false?
+a) Constant variables need not be defined as they are declared and can be defined later
+b) Global constant variables are initialized to zero
+c) const keyword is used to define constant values
+d) You cannot reassign a value to a constant variable
+EOQ a
+23.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int const k = 5;
+        k++;
+        printf("k is %d", k);
+    }
+a) k is 6
+b) Error due to const succeeding int
+c) Error, because a constant variable can be changed only twice
+d) Error, because a constant variable cannot be changed
+EOQ d
+24.What will be the output of the following C code?
+    #include <stdio.h>
+    int const print()
+    {
+        printf("HelloWorld");
+        return 0;
+    }
+    int main()
+    {
+        print();
+    }
+a) Error because function name cannot be preceded by const
+b) HelloWorld
+c) HelloWorld is printed infinite times
+d) Blank screen, no output
+EOQ b
+25.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        j = 10;
+        printf("%d\n", j++);
+        return 0;
+    }
+a) 10
+b) 11
+c) Compile time error
+d) 0
+EOQ c
+26.Will the following C code compile without any error?
+    #include <stdio.h>
+    int main()
+    {
+        for (int k = 0; k < 10; k++);
+            return 0;
+    }
+a) Yes
+b) No
+c) Depends on the C standard implemented by compilers
+d) Error
+EOQ c
+27.Will the following C code compile without any error?
+    #include <stdio.h>
+    int main()
+    {
+        int k;
+        {
+            int k;
+            for (k = 0; k < 10; k++);
+        }
+    }
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the C standard implemented by compilers
+EOQ a
+28.Which of the following declaration is not supported by C?
+a) String str;
+b) char *str;
+c) float str = 3e2;
+d) Both String str; & float str = 3e2;
+EOQ a
+29.Which of the following format identifier can never be used for the variable var?
+    #include <stdio.h>
+    int main()
+    {
+        char *var = "Advanced Training in C by ECE.com";
+    }
+a) %f
+b) %d
+c) %c
+d) %s
+EOQ a
+30.Which of the following declaration is illegal?
+a) char *str = "Hello World!";
+b) char str[] = "Hello World!";
+c) char str[20] = "Hello World!";
+d) char[] str = "Hello World!";
+EOQ d
+31.Which keyword is used to prevent any changes in the variable within a C program?
+a) immutable
+b) mutable
+c) const
+d) volatile
+EOQ c
+32.Which of the following is not a pointer declaration?
+a) char a[10];
+b) char a[] = {‘1’, ‘2’, ‘3’, ‘4’};
+c) char *str;
+d) char a;
+EOQ d
+33.Which of the following statement is false?
+a) A variable defined once can be defined again with different scope
+b) A single variable cannot be defined with two different types in the same scope
+c) A variable must be declared and defined at the same time
+d) A variable refers to a location in memory
+EOQ c
+34.A variable declared in a function can be used in main().
+a) True
+b) False
+c) True if it is declared static
+d) None of the mentioned
+EOQ b
+35.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int i = -3;
+        int k = i % 2;
+        printf("%d\n", k);
+    }
+a) Compile time error
+b) -1
+c) 1
+d) Implementation defined
+EOQ b
+36.What will be the final value of x in the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 5 * 9 / 3 + 9;
+    }
+a) 3.75
+b) Depends on compiler
+c) 24
+d) 3
+EOQ c
+37.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 5.3 % 2;
+        printf("Value of x is %d", x);
+    }
+a) Value of x is 2.3
+b) Value of x is 1
+c) Value of x is 0.3
+d) Compile time error
+EOQ d
+38.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int y = 3;
+        int x = 5 % 2 * 3 / 2;
+        printf("Value of x is %d", x);
+    }
+a) Value of x is 1
+b) Value of x is 2
+c) Value of x is 3
+d) Compile time error
+EOQ a
+39.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 1, y = 0, z = 5;
+        int a = x && y || z++;
+        printf("%d", z);
+    }
+a) 6
+b) 5
+c) 0
+d) Varies
+EOQ a
+40.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 1, y = 0, z = 5;
+        int a = x && y && z++;
+        printf("%d", z);
+    }
+a) 6
+b) 5
+c) 0
+d) Varies
+EOQ b
+41.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 1, y = 0, z = 3;
+        x > y ? printf("%d", z) : return z;
+    }
+a) 3
+b) 1
+c) Compile time error
+d) Run time error
+EOQ c
+42.What will be the final value of j in the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int i = 0, j = 0;
+        if (i && (j = i + 10))
+            //do something
+            ;
+    }
+a) 0
+b) 10
+c) Depends on the compiler
+d) Depends on language standard
+EOQ a
+43.What will be the final value of j in the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int i = 10, j = 0;
+        if (i || (j = i + 10))
+            //do something
+            ;
+    }
+a) 0
+b) 20
+c) Compile time error
+d) Depends on language standard
+EOQ a
+44.What is the result of logical or relational expression in C?
+a) True or False
+b) 0 or 1
+c) 0 if an expression is false and any positive number if an expression is true
+d) None of the mentioned
+EOQ b
+45.What will be the final value of d in the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int a = 10, b = 5, c = 5;
+        int d;
+        d = b + c == a;
+        printf("%d", d );
+    }
+a) Syntax error
+b) 1
+c) 5
+d) 10
+EOQ b
+46.Which among the following is NOT a logical or relational operator?
+a) !=
+b) ==
+c) ||
+d) =
+EOQ d
+47.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        unsigned int i = 23;
+        signed char c = -23;
+        if (i > c )
+            printf("Yes\n");
+        else if (i < c )
+            printf("No\n");
+    }
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the operating system
+EOQ b
+48.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 4, y, z;
+        y = --x;
+        z = x--;
+        printf("%d%d%d", x,  y, z);
+
+        return 0;
+    }
+a) 3 2 3
+b) 2 3 3
+c) 3 2 2
+d) 2 3 4
+EOQ b
+49.What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        1 < 2 ? return 1: return 2;
+    }
+a) returns 1
+b) returns 2
+c) Varies
+d) Compile time error
+EOQ d
+50.What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int a = 2 + 4 + 3 * 5 / 3 - 5;
+        printf("%d", a );
+    }
+a) 7
+b) 6
+c) 10
+d) 9
+EOQ b
+51.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 5;
+        if (x < 1)
+            printf("hello");
+        if (x == 5)
+            printf("hi");
+        else
+            printf("no");
+    }
+a) hi
+b) hello
+c) no
+d) error
+EOQ a
+52.What will be the output of the following C code?
+    #include <stdio.h>
+    int x;
+    int main()
+    {
+        if (x)
+            printf("hi");
+        else
+            printf("how are you");
+    }
+a) hi
+b) how are you
+c) compile time error
+d) error
+EOQ b
+53.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 5;
+        if (x < 1);
+            printf("Hello");
+    }
+a) Nothing
+b) Run time error
+c) Hello
+d) Varies
+EOQ c
+54.What will be the output of the following C code? (Assuming that we have entered the value 1 in the scanf)
+    #include <stdio.h>
+    int main()
+    {
+        char *ch;
+        printf("enter a value between 1 to 3:");
+        scanf("%s", ch);
+        switch (ch)
+        {
+           case "1":
+              printf("1");
+              break;
+           case "2":
+              printf("2");
+              break;
+        }
+    }
+a) 1
+b) 2
+c) Compile time error
+d) No Compile time error
+EOQ c
+55.What will be the output of the following C code?
+    #include <stdio.h>
+    const int a = 1,  b = 2;
+    int main()
+    {
+        int x = 1;
+        switch (x)
+        {
+           case a:
+              printf("yes ");
+           case b:
+              printf("no\n");
+              break;
+        }
+    }
+a) yes no
+b) yes
+c) no
+d) Compile time error
+EOQ d
+56.What will be the output of the following C code?
+    #include <stdio.h>
+    #define max( a ) a
+    int main()
+    {
+        int x = 1;
+        switch (x)
+        {
+           case max(2):
+              printf("yes\n");
+           case max(1):
+              printf("no\n");
+              break;
+        }
+    }
+a) yes no
+b) yes
+c) no
+d) Compile time error
+EOQ c
+57.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        switch (printf("Do"))
+        {
+           case 1:
+              printf("First\n");
+              break;
+           case 2:
+              printf("Second\n");
+              break;
+           default:
+              printf("Default\n");
+              break;
+        }
+    }
+a) Do
+b) DoFirst
+c) DoSecond
+d) DoDefault
+EOQ c
+58.Comment on the output of the following C code.
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        switch ( a )
+        case 1:
+            printf("%d", a );
+        case 2:
+            printf("%d", a );
+        case 3:
+            printf("%d", a );
+        default:
+            printf("%d", a );
+    }
+a) No error, output is 1111
+b) No error, output is 1
+c) Compile time error, no break statements
+d) Compile time error, case label outside switch statement
+EOQ d
+59.Which datatype can accept the switch statement?
+a) int
+b) char
+c) long
+d) all of the mentioned
+EOQ d
+60.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        switch ( a )
+        {
+           case a:
+              printf("Case A ");
+           default:
+              printf("Default");
+        }
+    }
+a) Case A
+b) Default
+c) Case A Default
+d) Compile time error
+EOQ d
+61.The C code ‘for(;;)’ represents an infinite loop. It can be terminated by:
+b) exit(0)
+c) abort()
+d) terminate
+EOQ a
+62.Which for loop has range of similar indexes of ‘i’ used in for (i = 0;i < n; i++)?
+a) for (i = n; i>0; i–)
+b) for (i = n; i >= 0; i–)
+c) for (i = n-1; i>0; i–)
+d) for (i = n-1; i>-1; i–)
+EOQ d
+63.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        short i;
+        for (i = 1; i >= 0; i++)
+            printf("%d\n", i);
+    }
+a) The control won’t fall into the for loop
+b) Numbers will be displayed until the signed limit of short and throw a runtime error
+c) Numbers will be displayed until the signed limit of short and program will successfully terminate
+d) This program will get into an infinite loop and keep printing numbers with no errors
+EOQ c
+64.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int k = 0;
+        for (k)
+            printf("Hello");
+    }
+a) Compile time error
+b) hello
+c) Nothing
+d) Varies
+EOQ a
+65.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int k = 0;
+        for (k < 3; k++)
+        printf("Hello");
+    }
+a) Compile time error
+b) Hello is printed thrice
+c) Nothing
+d) Varies
+EOQ a
+66.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        double k = 0;
+        for (k = 0.0; k < 3.0; k++)
+            printf("Hello");
+    }
+a) Run time error
+b) Hello is printed thrice
+c) Hello is printed twice
+d) Hello is printed infinitely
+EOQ b
+67.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int k;
+        for (k = -3; k < -5; k++)
+            printf("Hello");
+    }
+a) Hello
+b) Infinite hello
+c) Run time error
+d) Nothing
+EOQ d
+68.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        for (int i = 0;i < 1; i++)
+            printf("In for loop\n");
+    }
+a) Compile time error
+b) In for loop
+c) Depends on the standard compiler implements
+d) Depends on the compiler
+EOQ c
+69. What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        while ()
+            printf("In while loop ");
+        printf("After loop\n");
+    }
+a) In while loop after loop
+b) After loop
+c) Compile time error
+d) Infinite loop
+EOQ c
+70.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int i = 0;
+        while (++i)
+        {
+            printf("H");
+        }
+    }
+a) H
+b) H is printed infinite times
+c) Compile time error
+d) Varies
+EOQ b
+71.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int i = 0, j = 0;
+        while (i < 5, j < 10)
+        {
+            i++;
+            j++;
+        }
+        printf("%d, %d\n", i, j);
+    }
+a) 5, 5
+b) 5, 10
+c) 10, 10
+d) Syntax error
+EOQ c
+72.The keyword ‘break’ cannot be simply used within:
+a) do-while
+b) if-else
+c) for
+d) while
+EOQ b
+73.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int i = 0;
+        if (i == 0)
+        {
+            printf("Hello");
+            continue;
+        }
+    }
+a) Hello is printed infinite times
+b) Hello
+c) Varies
+d) Compile time error
+EOQ d
+74.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        printf("before continue ");
+        continue;
+        printf("after continue\n");
+    }
+a) Before continue after continue
+b) Before continue
+c) After continue
+d) Compile time error
+EOQ d
+75.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        void foo(), f();
+        f();
+    }
+    void foo()
+    {
+        printf("2 ");
+    }
+    void f()
+    {
+        printf("1 ");
+        foo();
+    }
+a) Compile time error as foo is local to main
+b) 1 2
+c) 2 1
+d) Compile time error due to declaration of functions inside main
+EOQ b
+76.Which of the following is a correct format for declaration of function?
+a) return-type function-name(argument type);
+b) return-type function-name(argument type){}
+c) return-type (argument type)function-name;
+d) all of the mentioned
+EOQ a
+77.The value obtained in the function is given back to main by using which keyword?
+a) return
+b) static
+c) new
+d) volatile
+EOQ a
+78.What is the problem in the following C declarations?
+   int func(int);
+   double func(int);
+   int func(float);
+a) A function with same name cannot have different signatures
+b) A function with same name cannot have different return types
+c) A function with same name cannot have different number of parameters
+d) All of the mentioned
+EOQ d
+79.Can functions return structure in C?
+a) True
+b) False
+c) Depends on the compiler
+d) Depends on the standard
+EOQ a
+80.What will be the output of the following C code?
+    #include <stdio.h>
+    int x;
+    int main()
+    {
+        printf("%d", x);
+    }
+a) Junk value
+b) Run time error
+c) 0
+d) Undefined
+EOQ c
+81.What is the scope of a function?
+a) Whole source file in which it is defined
+b) From the point of declaration to the end of the file in which it is defined
+c) Any source file in a program
+d) From the point of declaration to the end of the file being compiled
+EOQ d
+82.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        static int x;
+        printf("x is %d", x);
+    }
+a) 0
+b) 1
+c) Junk value
+d) Run time error
+EOQ a
+83.Which of the following cannot be static in C?
+a) Variables
+b) Functions
+c) Structures
+d) None of the mentioned
+EOQ d
+84.Which of the following is true for the static variable?
+a) It can be called from another function
+b) It exists even after the function ends
+c) It can be modified in another function by sending it as a parameter
+d) All of the mentioned
+EOQ b
+85.register keyword mandates compiler to place it in machine register.
+a) True
+b) False
+c) Depends on the standard
+d) None of the mentioned
+EOQ b
+86.Can function definition be present in header files?
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the standard
+EOQ a
+87.What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int i = 10;
+        void *p = &i;
+        printf("%d\n", (int)*p);
+        return 0;
+    }
+a) Compile time error
+b) Segmentation fault/runtime crash
+c) 10
+d) Undefined behaviour
+EOQ a
+88.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 0;
+        int *ptr = &5;
+        printf("%p\n", ptr);
+    }
+a) 5
+b) Address of 5
+c) Nothing
+d) Compile time error
+EOQ d
+89.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int x = 0;
+        int *ptr = &x;
+        printf("%d\n", *ptr);
+    }
+a) Address of x
+b) Junk value
+c) 0
+d) Run time error
+EOQ c
+90.Which of the following is the correct syntax to send an array as a parameter to function?
+a) func(&array);
+b) func(#array);
+c) func(*array);
+d) func(array[size]);
+EOQ a
+91.What is the default return-type of getchar()?
+a) char
+b) int
+c) char *
+d) reading character doesn’t require a return-type
+EOQ b
+92.What is the value of EOF?
+a) -1
+b) 0
+c) 1
+d) 10
+EOQ a
+93.What will be the output of the following C code?
+    #include <stdio.h>
+    int main()
+    {
+        int i = 10, j = 3;
+        printf("%d %d %d", i, j);
+    }
+a) Compile time error
+b) 10 3
+c) 10 3 garbage value
+d) Undefined behaviour
+EOQ c
+94.The syntax to print a % using printf statement can be done by:
+a) %
+b) \%
+c) %
+d) %%
+EOQ d
+95.Which of the following represents the function for scanf()?
+a) void scanf(char *format, …)
+b) int scanf(char *format, …)
+c) char scanf(int format, …)
+d) char *scanf(char *format, …)
+EOQ b
+96.What does scanf() function return?
+a) Number of successfully matched and assigned input items
+b) Nothing
+c) Number of characters properly printed
+d) Error
+EOQ a
+97.For binary files, which of the following must be appended to the mode string?
+a) Nothing
+b) "b"
+c) "binary"
+d) "01"
+EOQ b
+98.In C language, FILE is of which data type?
+a) int
+b) char *
+c) struct
+d) None of the mentioned
+EOQ c
+99.stdout, stdin and stderr are:
+a) File pointers
+b) File descriptors
+c) Streams
+d) Structure
+EOQ a
+100.Which of the following function can be used to terminate the main function from another function safely?
+a) return(expr);
+b) exit(expr);
+c) abort();
+d) both exit(expr); and abort();
+EOQ b
+EOQ

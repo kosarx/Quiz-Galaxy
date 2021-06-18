@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %} Start Quiz? {% endblock title %} 
+{% block body %}
+    <div class="container col-4" style="height:100vh">
+        <div class="card bg-danger " style="border-radius: 25px;">
+            <div class="card-body bg-white my-4" style="border-radius: 5px;">
+                <form method="post">
+                    <div class="d-grid grid-3 ">
+                        <h4 class="text-dark text-center m-4 mb-5">Choose how many questions you would like to be quizzed on:</h3>
+                        <div class="row ">
+                            <div class="col-1"></div>
+                            <div class="form-check form-check-inline col" >
+                              <input class="form-check-input" type="radio" name="radioOptions" value="5">
+                              <label class="form-check-label text-dark " for="radioOptions"><strong>5 questions</strong></label>
+                            </div>
+                            <div class="form-check form-check-inline col">
+                              <input class="form-check-input" type="radio" name="radioOptions" value="10">
+                              <label class="form-check-label text-dark" for="radioOptions"><strong>10 questions</strong></label>
+                            </div>
+                            <div class="form-check form-check-inline col">
+                                <input class="form-check-input" type="radio" name="radioOptions" value="15">
+                                <label class="form-check-label text-dark" for="radioOptions"><strong>15 questions</strong></label>
+                              </div>
+                          </div>
+                        <button type="submit" class="btn btn-warning mt-4 mb-5 mx-4 border-dark border-2" style="position: relative; top: 26px;" name="start_button" value="yes"><strong>Start</strong></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock body%}

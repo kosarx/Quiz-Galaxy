@@ -1,0 +1,85 @@
+{% extends "login.html" %}
+{% block title %} Menu {% endblock title %}
+{% block body %}
+<div style="padding-bottom: 120px; margin-right: 14px;" >
+    <header>
+         <nav class="navbar navbar-expand-lg navbar-danger bg-danger">
+            <div class="container-fluid ">
+                <a class="navbar-brand fw-bold fs-1 text-white" href="#" >Quiz Galaxy</a>
+                <div class="collapse navbar-collapse">
+                    <span class="navbar-text text-white" style="position: absolute; right: 20px;">
+                    Python, C, and more.
+                    </span>
+                </div>
+            </div>
+    </header>
+            
+    <main role="main" class="container my-5">
+        <section id="showcase">
+            <div class="container">
+                <h1 class="text-danger"><b>Welcome!</b></h1>
+                <h3>
+                    This is Quiz Galaxy! Select the programming language quiz that interestes you and challenge yourself! 
+                </h3>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card border-2 border-warning" style="width: 18rem;">
+                    <img src="{{url_for('static', filename='images/python.png' )}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 text-danger">Python Quiz</h5>
+                      <p class="card-text">Test your skills with one of the most popular programming languages, on this general-purpose Python Quiz!</p>
+                      <a href="../start/python_quiz/" class="btn btn-danger ">Start the Quiz!</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card border-2 border-warning" style="width: 18rem;">
+                    <img src="{{url_for('static', filename='images/C.webp' )}}" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 text-danger">C Language Quiz</h5>
+                      <p class="card-text">Tackle on this procedural computer programming language, with emphasis on structured code, by completing the C Quiz!</p>
+                      <a href="../start/c_quiz/" class="btn btn-danger">Start the Quiz!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card border-2 border-warning" style="width: 18rem;">
+                    <img src="{{url_for('static', filename='images/javascript.png' )}}" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 text-danger">JavaScript Quiz</h5>
+                      <p class="card-text">As one of the core technologies of the World Wide Web, take the Quiz for this high-level, prototype-based programming language: JavaScript!</p>
+                      <a href="../start/javascript_quiz/" class="btn btn-danger">Start the Quiz!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card border-2 border-warning" style="width: 18rem;">
+                    <img src="{{url_for('static', filename='images/html1.png' )}}" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4 text-danger">HTML and CSS Quiz</h5>
+                      <p class="card-text">The juggernauts of website creation, HTML and CSS may not be programming languages, but are still vital for the Web!</p>
+                      <a href="../start/html_css_quiz" class="btn btn-danger">Start the Quiz!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+            <div class="row">
+                <div class="col-8 px-5 text-start">
+                    <footer class="footer" style="position: absolute; bottom: 5px;">
+                        <span class="text-muted ">Made possible with Python, Flask & Jinja2, Bootstrap.</span>
+                    </footer>
+                </div>
+                <div class="col-3 mx-2 text-end">
+                    <footer class="footer" style="position: absolute; bottom: 5px;" >
+                     <span class="text-muted ">Created for University of Patras, for N. Avouris, by Archontis Kosmas</span>
+                    </footer>
+            </div>
+</div>
+{% endblock body %}

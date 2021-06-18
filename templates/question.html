@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %} {{Quiz}} Question {{number}} {% endblock title %}
+{% block body%}
+    <div class="container col-md-6" style="height:100vh">
+        <div class="card" style="border-radius: 20px;">
+            <div class="card-body bg-danger" style="border-radius: 20px;">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                        <div class="col-6 my-2">
+                          <h2>{{Quiz}} Question {{number}}</h2>
+                        </div>
+                        <div class="col-6 text-center p-3">
+                          <span class=""><i class="m-2">player id: {{username}}#{{id}}</i></span>
+                        </div>
+                      </div>
+                        <div style="background-color:lightgoldenrodyellow; "class="border border-4 border-warning p-2">
+                          <b>{{current_question}}</b>
+                          <div>
+                            {% if code %}
+                                <pre style='border: black 2px solid;' class="bg-dark text-white mx-5 mt-3 mb-4">
+<!--fixing pre behavior          --><strong>{{ code }}</strong> 
+                                </pre>
+                                {% endif %}
+                              </div>
+                        </div>
+                    </div>
+                <form method="post">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="form-check">
+                              <input class="form-check-input" type="radio" name="reply" id="Radio1" value='a'>
+                              <label class="form-check-label" for="Radio1">
+                                <strong><pre>{{replies[0]}}</pre></strong>
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="reply" id="Radio2" value='b'>
+                              <label class="form-check-label" for="Radio2">
+                                <pre><strong>{{replies[1]}}</strong></pre>
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="reply" id="Radio3" value='c'>
+                              <label class="form-check-label" for="Radio3">
+                                <strong><pre>{{replies[2]}}</pre></strong>
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="reply" id="Radio4" value='d'>
+                              <label class="form-check-label" for="Radio4">
+                                <pre><strong>{{replies[3]}}</strong></pre>
+                              </label>
+                              <div class="my-4">
+                                  <button type="submit" class="btn btn-danger" name="procbutton" value="evaluate" {{is_disabled}}>Submit</button>
+                                  </div>
+                            </div>
+                      </div>
+                  {% if evaluate %}
+                      {% if correct_answer==user_answer %}
+                      <div class="mx-3 text-success">
+                        <h1>
+                          Correct!
+                        </h1>
+                      </div>
+                      {% elif correct_answer!=user_answer %}
+                      <div class="mx-3 text-danger">
+                        <h1>
+                          {% if correct_answer=='a' %}
+                          Incorrect! The right answer is <i>"{{replies[0]}}"</i>.
+                          {% elif correct_answer=='b' %}
+                          Incorrect! The right answer is <i>"{{replies[1]}}"</i>.
+                          {% elif correct_answer=='c' %}
+                          Incorrect! The right answer is <i>"{{replies[2]}}"</i>.
+                          {% elif correct_answer=='d' %}
+                          Incorrect! The right answer is <i>"{{replies[3]}}"</i>.
+                          {% endif %}
+                        </h1>
+
+                      </div>
+                      {% endif %}
+                      <div class="my-4 mx-4">
+                            <button type="submit" class="btn btn-danger" name="procbutton" value="continue">Continue</button>
+                            </div>
+                    {% endif %}
+                  </form>
+                <div class="mx-3">
+                  <i>score:{{ score }}</i>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body%}

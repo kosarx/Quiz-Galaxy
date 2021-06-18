@@ -1,0 +1,615 @@
+1.Choose the correct tag for the largest heading in HTML.
+a) h6
+b) heading
+c) h1
+d) head
+EOQ c
+2.Which of the following options follows content model in HTML?
+i.<ul>
+     <p>Option one </p>
+  </ul>
+ii.<ul>
+     <li>Option two </li>
+  </ul>
+a) i
+b) ii
+c) i and ii
+d) Neither i nor ii
+EOQ b
+3.What is the use of the “defer” attribute?
+a) It defers rendering of html page
+b) It defers script execution until the page has been rendered
+c) It defers rendering of css attributes
+d) It is only for internal scripts
+EOQ b
+4.In which part of HTML metadata is contained?
+a) body tag
+b) html tag
+c) head tag
+d) title tag
+EOQ c
+5.The recommended basic pixel size for a favicon is:
+a) 16×16
+b) 26×26
+c) 48×48
+d) both 16×16 and 48×48
+EOQ d
+6.Which of the following statement is true?
+a) Attribute names must be in uppercase
+b) Attribute values must be quoted
+c) Attribute minimization is mandatory
+d) Attribute values should not be quoted
+EOQ b
+7.What is the correct syntax for doctype in HTML5?
+a) <!doctype html>
+b) <doctype html!>
+c) <doctype html>
+d) </doctype html>
+EOQ a
+8.What happens if the doctype tag isn't specified in the start of an HTML document?
+a) Browser loads the document in quirky mode
+b) Browser loads the document in standard mode
+c) Browser stops working
+d) Browser crashes after showing the page
+EOQ a
+9.Which element is used to get highlighted text in HTML5?
+a) <highlight>
+b) <b>
+c) <mark>
+d) <u>
+EOQ c
+10.Which of the following attribute is used to display date/time content?
+a) time
+b) datetime
+c) date
+d) year
+EOQ b
+11.Which of the following is not a HTML5 tag?
+a) <video>
+b) <source>
+c) <track>
+d) <slider>
+EOQ d
+12.Which of the following attribute adds audio controls, like play, pause, and volume?
+a) audio
+b) controls
+c) source
+d) src
+EOQ b
+13.Which of the following defines a section of related options in a drop-down list?
+a) <form>
+b) <optgroup>
+c) <output>
+d) <option>
+EOQ b
+14.Which of the following is not a correct statement?
+a) font-style: normal
+b) font-style: italic
+c) font-style: oblique
+d) font-style: capitalize
+EOQ d
+15.What should be set with text-align property so that every line has equal width?
+a) text-align: justify
+b) text-align: none
+c) text-align: bottom
+d) text-align: top
+EOQ a
+16.Which of the following tags work similar to <i>?
+a) <strong>
+b) <b>
+c) <em>
+d) <blockquote>
+EOQ c
+17.Which works similar to <b> element?
+a) <blockquote>
+b) <em>
+c) <i>
+d) <strong>
+EOQ d
+18.To show strikethrough-ed text, which tag is used?
+a) <ins>
+b) <del>
+c) <em>
+d) <strong>
+EOQ b
+19.For smaller text which element is used?
+a) <tiny>
+b) <min>
+c) <small>
+d) <em>
+EOQ c
+20.Which of the following defines the result of a calculation?
+a) <output>
+b) <keygen>
+c) <datalist>
+d) <datalist>
+EOQ a
+21.Which of the following elements in HTML5 defines video or movie content?
+a) <media>
+b) <video>
+c) <movie>
+d) <audio>
+EOQ b
+22.Which of the following defines additional details that the user can view or hide?
+a) <details>
+b) <article>
+c) <aside>
+d) <figure>
+EOQ a
+23.Which event is fired as the mouse is moving over an element when a drag is occurring?
+a) dragleave
+b) dragenter
+c) dragstart
+d) dragover
+EOQ d
+24.Which of the following gives a text description of the image if it is not available?
+a) alt
+b) title
+c) src
+d) height
+EOQ a
+25.For the caption of an image which tag is used?
+a) <figure>
+b) <src>
+c) <alt>
+d) <title>
+EOQ a
+26.URL is synonymous for:
+a) web address
+b) source code
+c) user’s address
+d) an attribute
+EOQ a
+27.Sprites are:
+a) 1D images
+b) 2D images
+c) 3D images
+d) not images
+EOQ b
+28.Template tag can’t be placed inside:
+a) <head>
+b) <body>
+c) <table>
+d) <form>
+EOQ d
+29.<template> does not include the attribute:
+a) id
+b) hidden
+c) lang
+d) src
+EOQ d
+30.An HTTP request is between:
+a) client and host
+b) client and server
+c) server and host
+d) user and server
+EOQ a
+31.For most efficiency, the position of CSS code should be at:
+a) at the bottom of the code
+b) at the middle of the code
+c) at the top of the code
+d) anywhere in the code
+EOQ c
+32.What is the maximum cache size for Chrome?
+a) unlimited
+b) 300 MB
+c) 400 MB
+d) 1024 MB
+EOQ b
+33.Each cell of a table tag can be represented using:
+a) <thead>
+b) <tr>
+c) <th>
+d) <td>
+EOQ d
+34.Borders can’t be applied on:
+a) <th>
+b) <td>
+c) <tr>
+d) <thead>
+EOQ c
+35.Which of the following tags define preformatted text?
+a) <p>
+b) <pre>
+c) <hr>
+d) <ins>
+EOQ b
+36.Which element is used for inserting links?
+a) <a>
+b) <p>
+c) <li>
+d) <ol>
+EOQ a
+37.Which of for an image located in same folder as the current page?
+a) <img src= “pic.jpg”>
+b) <img src= “../pic.jpg”>
+c) <img src= “images/pic.jpg”>
+d) <img src= “/images/pic.jpg”>
+EOQ a
+38.Which tag is used for List items?
+a) <li>
+b) <ol>
+c) <ul>
+d) <dl>
+EOQ a
+39.For displaying a list horizontally, which of the following can be used?
+a) <dd>
+b) display:inline
+c) <dt>
+d) type
+EOQ b
+40.Which of the following works as a sidebar?
+a) <aside>
+b) <footer>
+c) <details>
+d) <section>
+EOQ a
+41.Which of the following can’t be the value of float property?
+a) left
+b) right
+c) center
+d) inherit
+EOQ c
+42.Which property is used to align flex items?
+a) align-items
+b) justify-content
+c) align-content
+d) flex-grow
+EOQ b
+43.Which one of the following contains information about the author?
+a) <footer>
+b) <header>
+c) <head>
+d) <body>
+EOQ a
+44.For grouping together one or more <h1> to <h6> tags what element is used?
+a) <header>
+b) <hgroup>
+c) <div>
+d) <section>
+EOQ b
+45.Which tag is used for grouping together related elements?
+a) <div>
+b) <hgroup>
+c) <section>
+d) <header>
+EOQ a
+46.Which of the following is not a semantic element?
+a) <form>
+b) <article>
+c) <table>
+d) <span>
+EOQ d
+47.Which of the following specifies the main content of the document?
+a) <time>
+b) <main>
+c) <details>
+d) <section>
+EOQ b
+48.Which of the following specifies a relationship between the current document and an external resource?
+a) <meta>
+b) <style>
+c) <link>
+d) <title>
+EOQ c
+49.Which tag is used for making text bold?
+a) <cite>
+b) <br>
+c) <b>
+d) <code>
+EOQ c
+50.Which element denotes that the text is a piece of computer code?
+a) <dfn>
+b) <code>
+c) <cite>
+d) <data>
+EOQ b
+51.Which element prevents the text from automatically wrapping across multiple lines?
+a) <em>
+b) <kbd>
+c) <mark>
+d) <nobr>
+EOQ d
+52.Which element is used to enclose inline text?
+a) <samp>
+b) <small>
+c) <s>
+d) <rtc>
+EOQ a
+53.Which of the following is a generic inline container for phrasing content?
+a) <strong>
+b) <sub>
+c) <span>
+d) <sup>
+EOQ c
+54.Which element represents an external resource?
+a) <object>
+b) <source>
+c) <param>
+d) <picture>
+EOQ a
+55.Which element is not a scripting element?
+a) <noscript>
+b) <canvas>
+c) <script>
+d) <picture>
+EOQ d
+56.Which element is used to draw graphics and animations?
+a) <canvas>
+b) <script>
+c) <noscript>
+d) <picture>
+EOQ a
+57.Which of the following elements is for holding client-side content?
+a) <template>
+b) <slot>
+c) <element>
+d) <content>
+EOQ a
+58.Which tag is used for defining a new custom DOM elements?
+a) <element>
+b) <shadow>
+c) <slot>
+d) <content>
+EOQ a
+59.Which element is used as a container for a directory of files?
+a) <dir>
+b) <font>
+c) <content>
+d) <command>
+EOQ a
+60.Bootstrap was first used for:
+a) google
+b) twitter
+c) instagram
+d) snapchat
+EOQ b
+61.CSS stands for:
+a) Color Style Sheets
+b) Cascade Sheets Style
+c) Cascade Style Sheet
+d) Cascading Style Sheets
+EOQ d
+62.In css, “color:violet” is a:
+a) Selector
+b) Rule
+c) Declaration
+d) Value
+EOQ c
+63.Which selectors are used to specify a group of elements?
+a) id
+b) class
+c) tag
+d) both class and tag
+EOQ b
+64.In which of the following HTML tags is a CSS file linked in?
+a) <head>
+b) <html>
+c) <div>
+d) <body>
+EOQ a
+65.Which of the following measurement defines a measurement relative to a font's x-height?
+a) ex
+b) em
+c) pt
+d) px
+EOQ a
+66.Which of the following is not an Absolute Unit?
+a) px
+b) em
+c) pt
+d) mm
+EOQ b
+67.Which of the following attribute specifies the URL of the linked resource?
+a) src
+b) link
+c) rel
+d) href
+EOQ d
+68.Which CSS property defines the bottom-left corner shape of the border?
+a) border-radius
+b) border-corner-radius
+c) border-bottom-left-radius
+d) border-left-radius
+EOQ c
+69.Which CSS property sets the width of an element’s bottom border?
+a) border-width
+b) border-bottom
+c) border-width-down
+d) border-bottom-width
+EOQ d
+70.Which of the following CSS properties sets the color of an element’s four borders?
+a) border-background
+b) border-background-color
+c) border-color
+d) all of the mentioned
+EOQ c
+71.Which of the following CSS properties is used to set the text formatting?
+a) font
+b) font-style
+c) text-decoration
+d) all of the mentioned
+EOQ c
+72.Which of the following sets the color of any text decoration, such as underlines, overlines, and strike throughs?
+a) text-font
+b) text-format
+c) text-color
+d) text-decoration-color
+EOQ d
+73.Which of the following properties applies one or more drop shadows to the text?
+a) text-shadow
+b) text-effect
+c) text-format
+d) text-decoration-shadow
+EOQ a
+74.Which option correctly specifies the output of the following CSS?
+span {
+  border: 1px solid black;
+  outline: white dotted thick;
+}
+a) All span elements will have a black border and a white dotted outline
+b) All span elements will have a white thick border and a red outline
+c) All span elements will have an outer black border and inner white dotted border
+d) All span elements will have an outer white dotted border and an inner black border
+EOQ d
+75.Which of the following properties specifies the color of an outline?
+a) color-outline
+b) outline-color
+c) outline-style-color
+d) none of the mentioned
+EOQ b
+76.Which of the following properties specifies the look and design of an outline?
+a) outline-font
+b) outline-style
+c) outline-format
+d) none of the mentioned
+EOQ b
+77.Which of the following properties sets the width of an element’s bottom border?
+a) border
+b) border-collapse
+c) border-bottom-width
+d) none of the mentioned
+EOQ c
+78.Which of the following properties defines the color of the top border of an element?
+a) border-color
+b) border-top
+c) border-top-color-webkit
+d) border-top-color
+EOQ d
+79.Which of the following property sets the width of an element’s complete border?
+a) border-width
+b) width
+c) border-depth
+d) none of the mentioned
+EOQ a
+80.Which of the following defines in a shorthand way the width, style, and color of the top border of an element?
+a) border-up
+b) border-north
+c) border-upper
+d) none of the mentioned
+EOQ d
+81.Which of the following properties specifies the placement of an element in relation to floating objects?
+a) clear
+b) color
+c) space
+d) none of the mentioned
+EOQ a
+82.Which of the following property specifies the transparency of an element?
+a) alpha
+b) opacity
+c) opac
+d) none of the mentioned
+EOQ b
+83.Which of the following properties sets the base color for a scroll bar, which will include the scroll box, track, and scroll arrows?
+a) scrollbar-base
+b) scrollbar-base-color
+c) scrollbar-background
+d) none of the mentioned
+EOQ c
+84.Which of the following properties defines a highlight color for a scroll bar and scroll arrows?
+a) scrollbar-color
+b) scrollbar-highlight
+c) scrollbar-highlight-color
+d) scrollbar-highlight-background
+EOQ c
+85.Which of the following properties sets the size of the font?
+a) font-size
+b) font-variant
+c) font-style
+d) font-weight
+EOQ a
+86.Which of the following properties converts text to initial capitals, all uppercase, or all lowercase?
+a) text-transform
+b) text
+c) text-decoration
+d) text-uppercase
+EOQ a
+87.Which of the following properties controls how spaces and word wrapping are handled?
+a) spacing
+b) text-space
+c) white-space
+d) word-spacing
+EOQ c
+88.Which of the following properties applies one or more shadows to text?
+a) text-shadow
+b) shadowed
+c) shadow
+d) background-shadow
+EOQ a
+89.Which of the following properties defines the style for the bottom border of an element?
+a) border-bottom-style
+b) border-collapse
+c) border-style-bottom
+d) none of the mentioned
+EOQ a
+90.Which of the following properties defines the space between cells in a table?
+a) auto
+b) border
+c) spacing
+d) border-spacing
+EOQ d
+91.Which of the following properties defines in a simple form the width, style, and color of the top border of an element?
+a) border-top-style
+b) border-height
+c) border-width
+d) border-top
+EOQ d
+92.Which of the following properties defines in a shorthand form the width, style, and color for all four sides of an element’s border?
+a) border
+b) border-style
+c) border-color
+d) border-all
+EOQ a
+93.Which of the following properties is used to round the corners of a border?
+a) border-corner
+b) border-round
+c) border-radius
+d) None of the above
+EOQ c
+94.Which of the following properties sets the font face to be used for text?
+a) font
+b) font-text
+c) font-family
+d) None of the above
+EOQ c
+95.Which of the following properties sets the size of the font?
+a) font
+b) font-text
+c) font-size
+d) None of the mentioned
+EOQ c
+96.What effect does the following code have?
+<style h1 {color: green;}> 
+<h1>Hello</h1>
+a) The h1 heading becomes green
+b) Error
+c) The h1 heading doesn't appear
+d) Nothing happens
+EOQ c
+97.What will be the output of following code?
+<p style="color: red">text</p>
+a) It makes that specific paragraph red.
+b) Error
+c) Nothing happens
+d) None of above
+EOQ a
+98.What is the following called?
+<body style="background-color: lightcyan">
+a) Inline Style
+b) External Style Sheet
+c) Referencial Style
+d) None of the above
+EOQ a
+99.If a particular rule should never be overridden by another rule, which of the following indications should be used?
+a) @important
+b) !important!
+c) !important
+d) important!
+EOQ c
+100.Which of the following property defines the width of each column in a multicolumn text flow?
+a) width
+b) columns
+c) filter
+d) column-width
+EOQ d
+EOQ

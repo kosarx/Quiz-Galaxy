@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %} Quiz Finished! {% endblock title %}
+{% block body %}
+  <div class="container col-md-4" style="height:100vh">
+    <div class="card bg-danger">
+      <div class="card-body bg-white text-danger my-3">
+        <div>
+          <h1>{{Quiz}} finished with a score of... </h1>
+        </div>
+        {% if score<=total_questions//3 %} <!--less than 1 or 3 or 5-->
+          <h1 class="text-warning text-center ">{{score}}</h1>
+        {% elif score<=2*total_questions//3 + 1 %} <!--less than 4 or 8 or 11-->
+          <h1 class="text-primary text-center" style="color:gray;">{{score}}</h1>
+        {% else %} <!--greater than 4 or 8 or 11-->
+          <h1 class="text-success text-center ">{{score}}!</h1>
+          <div class="text-warning text-center">
+            <h2>{{congratulations_message}}</h2>
+          </div>
+        {% endif %}
+        <div class="row">
+          <div class="col-8">
+            <h3 class="my-4">Player: <b class="text-dark">{{user}}</b></h3>
+          </div>
+          <div class="col-3">
+            <h3 class="my-4 ms-5">id: {{id}}</h3>
+          </div>
+        </div>
+        <form method="POST">
+          <div class="row">
+            <div class="my-4 mx-2 col-8">
+              <button type="submit" class="btn btn-danger" name="button" value="menu">Back to Menu</button>
+            </div>
+            <div class="my-4 mx-2 col-3">
+                <button type="submit" class="btn btn-danger" name="button" value= "restart">Restart Quiz</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class=" mt-3" style="border-radius: 10px;">
+      <div class="my- form-floating" style="border-radius: 10px;">
+        <textarea class="form-control border-5 border-danger text-dark fw-bold" placeholder="No log entries..." id="log"style="height:150px" disabled>
+{{log_entries}}</textarea>
+      </div>
+    </div>
+  </div>
+{% endblock body %}

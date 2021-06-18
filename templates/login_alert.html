@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %} Login Alert {% endblock title %}
+{% block body %}
+  <div class="container col-md-4" style="height:100vh; position: relative;">
+    <div class="card bg-danger" style="border-radius: 25px; position: absolute; top: 120px">
+        <div class="card-body bg-danger mt-3">
+              <h1 class="card-title text-white">Welcome to Quiz Galaxy!</h1>
+        </div>
+        <div class="card-body bg-white" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">
+            <form method="post">
+              <div class="alert alert-danger fade show" role="alert">
+                "User name and password not found in database. Would you like to save these as a new account?"
+              </div>
+              <div class="row">
+                <div class="form-check form-check-inline col-md-4 mx-5" >
+                  <input class="form-check-input" type="radio" name="radioOptions" id="radio1" value="yes">
+                  <label class="form-check-label" for="inlineRadio1">Yes, please</label>
+                </div>
+                <div class="form-check form-check-inline col-md-4">
+                  <input class="form-check-input" type="radio" name="radioOptions" id="radio2" value="no">
+                  <label class="form-check-label" for="inlineRadio2">No, take me back</label>
+                </div>
+              </div>
+              
+              <div class="my-4 mx-2">
+                <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+              </form>
+          </div>
+      </div>
+    </div>
+{% endblock body %}

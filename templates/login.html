@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %} Login {% endblock title %}
+{% block body %}
+    <div class="container col-md-4" style="height:100vh; position: relative;">
+        <div class="card bg-danger" style="border-radius: 25px; position: absolute; top: 120px">
+            <div class="card-body bg-danger mt-3">
+                <h1 class="card-title text-white">Welcome to Quiz Galaxy!</h1>
+            </div>
+            <div class="card-body bg-white" style="border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;">
+                <h5 class="card-subtitle my-2 text-dark">We noticed you tried to enter the website. Please, enter your name and password if you're revisiting or new ones if this is your first time!</h5>
+                <form method="post">
+                    <div class="row mb-2 mt-3">
+                        <div class="mb-3 col-8">
+                            <label for="exampleInputName1" class="form-label "><b>Your name</b></label>
+                            <input type="text" class="form-control " id="exampleInputName1" required name="userName">
+                        </div>
+                    </div>
+                    <div class="row my-2">
+                        <div class="mb-3 col-8">
+                            <label for="exampleInputPassword1" class="form-label "><b>Password</b></label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required name="userPassword">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger my-2">Submit</button>
+                    <div id="nameHelp" class="form-text">The password is just to authenticate our players! You don't have to think hard about it!</div>
+                    </form>
+                {% if show=="Incorrect_pword" %}
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>Woops!</strong> That user name already exists, with a different password! Try again.
+                        <button type="button" class="btn-close " data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endif %} 
+            </div>
+        </div>
+    </div>
+{% endblock body %}

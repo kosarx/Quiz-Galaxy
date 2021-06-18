@@ -1,0 +1,798 @@
+1.What's the missing part of the code below to output "Hello World"?
+_____("Hello World")
+a)exit
+b)type
+c)print
+d)open
+EOQ c
+2.What is the missing operator in order to get "Hello!" as output?
+a='b'
+b='10'
+if a___b:
+    print("Hello!")
+else:
+    print("Hi.")
+a)>
+b)<
+c)=
+d)is
+EOQ a
+3.What is the value returned by math.sqrt(4)?
+a)2
+b)2.0
+c)16
+d)4.0
+EOQ b
+4.The finally part of the try/except command is executed:
+a)always 
+b)when an error is found within try
+c)when an error is not found within try
+d)None of the above.
+EOQ a
+5.What's the result of the following code:
+b = 2
+print( (b**2)**0.5 )
+a)Error
+b)2
+c)20
+d)2.0
+EOQ d
+6.Is python a case sensitive language?
+a)True
+b)False
+c)Only under specified conditions
+d)Only when it concerns reserved keywords
+EOQ a
+7.What is the output of print str[2:5] if str = 'Hello World!'?
+a)llo World!
+b)H
+c)llo
+d)Error
+EOQ c
+8.What is the output of print tinylist * 2 if tinylist = [123, 'john']?
+a)[123, 'john', 123, 'john']
+b)[123, 'john'] * 2
+c)Error
+d)None of the above.
+EOQ a
+9.Which of the following functions convert a string to an int in python?
+a)int(x [,base])
+b)long(x [,base] )
+c)float(x)
+d)str(x)
+EOQ a
+10.Which of the following operators in python performs the division on operands where the result is the quotient in which the digits after the decimal point are removed?
+a)**
+b) //
+c)is
+d)not in
+EOQ b
+11.Which of the following statement terminates the loop statement and transfers execution to the statement immediately following the loop?
+a)pass
+b)continue
+c)break
+d)None of the above.
+EOQ c
+12.What's the output of the following code?
+for i in range(3, 12, 4):
+	print(i+5, end=' ')
+else:
+	print('end')
+a)3 7 11 end
+b)3 7 11
+c)8 12 16
+d)8 12 16 end
+EOQ d
+13.What's the result of the following code?
+s = '123456'
+print(s[len(s)])
+a)'6'
+b)'123456'
+c)5
+d)IndexError
+EOQ d
+14.What does the following code give as output?
+li = (1,2,3,4)
+print (li[1:2])
+a)(1,2)
+b)2
+c)(2,)
+d)(2,3)
+EOQ c
+15.Which of the following functions capitalize the first letter of a string?
+a)shuffle(list)
+b)capitalize()
+c)isalnum()
+d)title()
+EOQ b
+16.Which of the following commands cause an Error for li?
+li = [(1,2), (3,4)]
+a)len(li[1])
+b)li.remove((3,4))
+c)li.pop()
+d)li[0].pop()
+EOQ d
+17.How would the hexadecimal value of 'a5' be expressed as a base-16 integer constant in Python?
+a)0ba5
+b)0ha5
+c)0hA5
+d)0xa5
+EOQ d
+18.Which of the following are valid ways to specify the string literal home'work in Python?
+a)'home'work'
+b)'home\'work'
+c)"home''work"
+d)''home'work''
+EOQ b
+19.Which of the following is not a Python built-in function?
+a)diff()
+b)round()
+c)isinstance()
+d)repr()
+EOQ a
+20.Which one of the following if statements will not execute successfully:
+a)if (1, 2): print('foo')
+b)if (1, 2):
+print('foo')
+c)if (1, 2):
+  print('foo')
+d)if (1, 2):
+
+    print('foo')
+EOQ b
+21.What signifies the end of a statement block or suite in Python?
+a)end
+b)A line that is indented less than the previous line
+c)A comment
+d)}
+EOQ b
+22.What is the output of the following code?
+if 'bar' in {'foo': 1, 'bar': 2, 'baz': 3}:
+    print(1)
+    print(2)
+    if 'a' in 'qux':
+        print(3)
+print(4)
+a)4
+b)1
+  2
+  3
+  4
+c)1
+  2
+  4
+d)It doesn’t generate any output.
+EOQ c
+23.Which of the following codes assigns to the variable m the smallest value if:
+a=10
+b=5
+a)if a>b:
+	m=a
+elif a==b:
+	m=a
+else:
+	m=b
+b)if a>b:
+	m=a
+else:
+	m=b
+c)if a<b:
+	m=a
+elif a==b:
+	m=a
+else:
+	m=b
+d)if a<b:
+	m=a
+elif:
+	m=b
+EOQ c
+24.What is value of this expression:
+'a' + 'x' if '123'.isdigit() else 'y' + 'b'
+a)'axyb'
+b)'ab'
+c)'axb'
+d)'ax'
+EOQ d
+25.What would be the output of the following code?
+(lambda x: (x + 3) * 5 / 2)(3)
+a)15.0
+b)30.0
+c)0
+d)SyntaxError
+EOQ a
+26.In the Python statement x = a + 5 - b:
+a and b are ________
+a + 5 - b is ________
+a)operators, a statement
+b)operands, an expression
+c)operands, an equation
+d)terms, a group
+EOQ b
+27.After these are executed, what is the value of y?
+x = 10.0
+y = (x < 100.0) and isinstance(x, float)
+a)0
+b)False
+c)1
+d)True
+EOQ d
+28.Which of the following are truthy?
+a)[]
+b)False
+c)'None'
+d)0
+EOQ c
+29.What is the value of the expression a and b if:
+a=100
+b=200
+a)True
+b)0
+c)200
+d)False
+EOQ c
+30.What is the value of the expression 1 + 2 ** 3 * 4?
+a)33
+b)108
+c)36
+d)4097
+EOQ a
+31.What is the output of the following code snippet:
+d = {'foo': 1, 'bar': 2, 'baz': 3}
+while d:
+    print(d.popitem())
+print('Done.')
+a)foo
+  bar
+  baz
+b)Done.
+c)The snippet doesn’t generate any output.
+d)('baz', 3)
+  ('bar', 2)
+  ('foo', 1)
+  Done.
+EOQ d
+32.What is the output of this code:
+d = {'foo': 1, 'bar': 2, 'baz': 3}
+while len( d ) > 3:
+    print(d.popitem())
+print('Done.')
+a)The code doesn’t generate any output.
+b)Done.
+c)('baz', 3)
+  ('bar', 2)
+  ('foo', 1)
+Done.
+d)foo
+  bar
+  baz
+EOQ b
+33.What is the result of this statement?
+print(ord('foo'))
+a)324
+b)102
+c)It raises an exception
+d)102 111 111
+EOQ c
+34.In Python, strings are:
+a)immutable
+b)changeable
+c)mutable
+d)char arrays
+EOQ a
+35.Which of the following mathematical operators can be used to concatenate strings:
+a)/
+b)**
+c)-
+d)+
+EOQ d
+36. What is the output of the following code?
+def calculate (num1, num2=4):
+  res = num1 * num2
+  print(res)
+calculate(5, 6)
+a)20
+b)The program executed with errors
+c)30
+d)50
+EOQ c
+37. What is the output of the following code?
+listOne = [20, 40, 60, 80]
+listTwo = [20, 40, 60, 80]
+
+print(listOne == listTwo)
+print(listOne is listTwo)
+a)True
+  True
+b)True
+  False
+c)False
+  True
+d)False
+  False
+EOQ b
+38. What is the output of the following code?
+var= "James Bond"
+print(var[2::-1])
+a)Jam
+b)dno
+c)maJ
+d)dnoB semaJ
+EOQ c
+39. What is the output of the following code?
+sampleList = ["Jon", "Kelly", "Jessa"]
+sampleList.append(2, "Scott")
+print(sampleList)
+a)The program executed with errors
+b)['Jon', 'Kelly', 'Scott', 'Jessa']
+c)['Jon', 'Kelly', 'Jessa', 'Scott']
+d)['Jon', 'Scott', 'Kelly', 'Jessa']
+EOQ a
+40.What is the output of the following code?
+var1 = 1
+var2 = 2
+var3 = "3"
+print(var + var2 + var3)
+a)6
+b)33
+c)123
+d)Error.
+EOQ d
+41.What is the output of the following code?
+str = "pynative"
+print (str[1:3])
+a)py
+b)yn
+c)pyn
+d)yna
+EOQ b
+42.What is the output of the following?
+x = 36 / 4 * (3 +  2) * 4 + 2
+print(x)
+a)182.0
+b)37
+c)117
+d)182
+EOQ a
+43.Which of the following is incorrect file handling mode in Python?
+a)wb+
+b)ab
+c)xr
+d)ab+
+EOQ c
+44.What is the output of the following print() function?
+print(sep='--', 'Ben', 25, 'California')
+a)Ben--25--California
+b)Syntax Error
+c)Ben–25–California
+d)Ben 25 California
+EOQ b
+45.What is the output of print('[%c]' % 65)?
+a)65
+b)A
+c)[A]
+d)Syntax Error
+EOQ c
+46.What is the output of the following print() function?
+print('%d %d %.2f' % (11, '22', 11.22))
+a)11 22 11.22
+b)TypeError
+c)11 '22' 11.22
+d)11 22 22
+EOQ b
+47.What is the output of  print('%x, %X' % (15, 15))?
+a)15 15
+b)F F
+c)f f
+d)f F
+EOQ d
+48.What is the output of the add() function call?
+def add(a, b ):
+    return a+5, b+5
+result = add(3, 2)
+print(result)
+a)15
+b)7
+c)(8, 7)
+d)Syntax Error
+EOQ c
+49.What is the output of the following display() function call?
+def display(**kwargs):
+    for i in kwargs:
+        print(i)
+display(emp="Kelly", salary=9000)
+a)TypeError
+b)Kelly
+  9000
+c)('emp', 'Kelly')
+  ('salary', 9000)
+d)emp
+  salary
+EOQ d
+50.What is the output of the following function call?
+def outerFun(a, b ):
+    def innerFun(c, d ):
+        return c + d
+    return innerFun(a, b )
+    return a
+result = outerFun(5, 10)
+print(result)
+a)5
+b)15
+c)(15, 5)
+d)Syntax Error
+EOQ b
+51.What is the type of the following variable?
+x = -5j
+a)int
+b)complex
+c)real
+d)imaginary
+EOQ b
+52.What is the output of print(abs(-45.300))?
+a)45.3
+b)-45.3
+c)-45.300
+d)45.300
+EOQ a
+53.What is the value of x if:
+x = 0
+while (x < 100):
+  x+=2
+print(x)
+a)101
+b)99
+c)None, this is an infinite loop
+d)100
+EOQ d
+54.What is the output of the following code?
+print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
+a)True True False True
+b)False True True True
+c)True True False True
+d)False True False True
+EOQ b
+55.What is the output of the following code?
+x = 100
+y = 50
+print(x and y)
+a)True
+b)100
+c)False
+d)50
+EOQ d
+56.What is the output of the expression  print(-18 // 4)?
+a)-4
+b)4
+c)-5
+d)5
+EOQ c
+57.Select the correct way to get the value of marks key.
+student = {
+  "name": "Emma",
+  "class": 9,
+  "marks": 75
+}
+a)m = student.get(2)
+b)m = student.get('marks')
+c)m = student[2])
+d)m = student.keys(2)
+EOQ b
+58.Choose the correct way to access value 20 from the following tuple?
+aTuple = ("Orange", [10, 20, 30], (5, 15, 25))
+a)aTuple[1:2][1]
+b)aTuple[1:2](1)
+c)aTuple[2][0]
+d)aTuple[1:2][0][1]
+EOQ d
+59.What is the output of the following?
+aTuple = "Yellow", 20, "Red"
+a, b, c = aTuple
+print( a )
+a)('Yellow', 20, 'Red')
+b)TypeError
+c)Yellow
+d)None
+EOQ c
+60.What is the output of the following tuple operation?
+aTuple = (100,)
+print(aTuple * 2)
+a)(200)
+b)(100, 100)
+c)TypeError
+d)(100, (100,))
+EOQ b
+61.What is the type of the following variable?
+aVar = ("Orange")
+print(type(aVar))
+a)list
+b)tuple
+c)array
+d)str
+EOQ d
+62.What is the data type of the following?
+aTuple = (1, 'Jhon', 1+3j)
+print(type(aTuple[2:3]))
+a)list
+b)complex
+c)tuple
+d)string
+EOQ c
+63.What is the data type of print(type(0xFF))?
+a)number
+b)int
+c)hex
+d)hexint
+EOQ b
+64.Select the correct expression to reassign a global variable "x" to 20 inside a function fun1():
+x = 50
+def fun1():
+    # the code to assign global x = 20
+fun1()
+print(x) # it should print 20
+a)global x =20
+b)global var x
+  x = 20
+c)global.x = 20
+d)global x
+  x = 20
+EOQ d
+65.What is the output of the following variable assignment?
+x = 75
+def myfunc():
+    x = x + 1
+    print(x)
+myfunc()
+print(x)
+a)Error
+b)76
+c)1
+d)None
+EOQ a
+66.What is the output for:
+S = [['him', 'sell'], [90, 28, 43]]
+S[0][1][1]
+a)'e'
+b)'i'
+c)'90'
+d)'h'
+EOQ a
+67.What is the output for: 
+b = [11,13,15,17,19,21]
+print(b[::2])
+a)[19,21]
+b)[11,15]
+c)[11,15,19]
+d)[13,17,21]
+EOQ c
+68.Name the error that doesn’t cause program to stop/end, but the output is not the desired result or is incorrect.
+a)Syntax error
+b)Runtime error
+c)Logical error
+d)All of the above
+EOQ c
+69.What is output for min("hello world")?
+a)e
+b)blank space character
+c)w
+d)None of the above.
+EOQ b
+70.What is the output of the following code?
+def main(): 
+   try: 
+      func() 
+      print(''print this after function call'') 
+   except ZeroDivisionError: 
+      print('Divided By Zero! Not Possible! ') 
+   except: 
+      print('Its an Exception!') 
+def func(): 
+   print(1/0) 
+main()
+a)'Its an Exception!'
+b)'Divided By Zero! Not possible!'
+c)'print this after function call' followed by 'Divided By Zero! Not Possible!'
+d)'print this after function call’ followed by ‘Its an Exception!'
+EOQ b
+71.What will be the output of the following code?
+minidict = { 'name': 'Java', 'name': 'website'}
+print(minidict['name'])
+a)Java
+b)Website
+c)('Java' , 'website')
+d)It will show an Error.
+EOQ b
+72.Which of the following function of dictionary gets all the values from the dictionary?
+a)getvalues()
+b)value()
+c)values()
+d)None of the above.
+EOQ c
+73.What is the output of L[-2] if L = [1,2,3]?
+a)1
+b)2
+c)3
+d)None of the above.
+EOQ b
+74.Which of the following functions reverse objects of list in place?
+a)list.reverse()
+b)list.sort([func])
+c)list.pop(obj=list[-1])
+d)list.remove(obj)
+EOQ a
+75.Which of the following statements is true?
+a)Python is an interpreted language.
+b)Python is a high level programming language.
+c)Python is an object-oriented language.
+d)All of the above.
+EOQ d
+76.Which keyword can be used in any place in Python code to tell interpreter “to do nothing” and move to next instruction?
+a)skip
+b)continue
+c)next
+d)pass
+EOQ d
+77.To run python script file named test.py, the following command needs to be used:
+a)execute python test.py
+b)run python test.py
+c)python test.py
+d)go python test.py
+EOQ c
+78.What is the output of this code?
+def func(val1, val2=2, val3=7, val4=1):
+    return val1**val2**val3
+print(func(val2=2, val1=2, val3=4))
+a)256
+b)32768
+c)65536
+d)This code raises an exception.
+EOQ c
+79.What is the value of round(12.5) – round(11.5)?
+a)0
+b)1
+c)2
+d)3
+EOQ a
+80.What is the size of an empty tuple in Python?
+a)0 bytes
+b)8 bytes
+c)32 bytes
+d)48 bytes
+EOQ d
+81.What is the output of the following code?
+def show(list, length):
+    print(list[length-1], end='')
+    show(list, length-1)
+show([1,2,3,4,5],5)
+a)54321
+b)54321IndexError: list index out of range
+c)5432154321
+d)5432154321IndexError: list index out of range
+EOQ d
+82.What is the maximum value for an integer in Python 3?
+a)2^63-1
+b)32767
+c)65536
+d)No limit
+EOQ d
+83.What is the value of y if:
+x, y, z = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)[2::3]
+a)2
+b)5
+c)6
+d)This code raises an exception
+EOQ c
+84.In the following code, how many objects and references does Python create?
+name = ‘Ayushi’
+fname = name
+a)One object, one reference
+b)One object, two references
+c)Two objects, one reference
+d)Two objects, two references
+EOQ b
+85.What is the output of this code?
+a,b=1,0
+a=a^b
+b=a^b
+a=a^b
+print( a )
+a)0
+b)1
+c)2
+d)This code will raise a runtime error
+EOQ a
+86.What is the value of this expression?
+2**2**3**1
+a)12
+b)64
+c)128
+d)256
+EOQ d
+87.Select the correct statement:
+a)You can pass keyword arguments in any order.
+b)You can call a function with positional and keyword arguments.
+c)Positional arguments must be before keyword arguments in a function call.
+d)All of the above.
+EOQ d
+88.What will this code print?
+from random import randint
+for i in range(5):
+    print(random(1, 5))
+a)Five random numbers in the range 1 to 5
+b)Five random integers in the range 1 to 4
+c)Five random integers in the range 1 to 5
+d)This code raises an exception
+EOQ d
+89.Which of the following will create a class called GLASS?
+a)class(GLASS)
+b)class GLASS:
+c)class: GLASS
+d)class: GLASS:
+EOQ b
+90.Which of the following is an invalid variable?
+a)my_string_1
+b)1st_string
+c)foo
+d)_
+EOQ b
+91.Which of the following cannot be a variable?
+a)__init__
+b)in
+c)it
+d)on
+EOQ b
+92.Operators with the same precedence are evaluated in which manner?
+a)Left to Right
+b)Right to Left
+c)Can’t say
+d)None of the mentioned
+EOQ a
+93.Which of these in not a core data type?
+a)Lists
+b)Dictionary
+c)Tuples
+d)Class
+EOQ d
+94.What is the return type of function id?
+a)int
+b)float
+c)bool
+d)dict
+EOQ a
+95.In order to store values in terms of key and value we use what core data type?
+a)list
+b)tuple
+c)class
+d)dictionary
+EOQ d
+96.What is the return value of trunc()?
+a)int
+b)bool
+c)float
+d)None
+EOQ a
+97.What is the type of inf?
+a)Boolean
+b)Integer
+c)Float
+d)Complex
+EOQ c
+98.Which of the following operators has its associativity from right to left?
+a)+
+b)//
+c)%
+d)**
+EOQ d
+99.Which of the following is the truncation division operator?
+a)/
+b)%
+c)//
+d)|
+EOQ c
+100.Which of the following expressions can be used to multiply a given number ‘a’ by 4?
+a)a<<2
+b)a<<4
+c)a>>2
+d)a>>4
+EOQ a
+EOQ
