@@ -5,7 +5,7 @@ import version_console as authent #useful only for database handling
 from quiz_handler import Quiz_Handler
 
 app= Flask(__name__)
-app.config['SECRET_KEY']="really-secret-key!"
+app.config['SECRET_KEY']="'8bfe8abbe81bdd72f6da242c7aa94f71'"
 
 @app.route("/")
 def root():

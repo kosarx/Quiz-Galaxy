@@ -77,6 +77,7 @@ a)The basic data type of C
 b)Qualifier
 c)Short is the qualifier and int is the basic data type
 d)All of the mentioned
+EOQ c
 12.What will be the output of the following C code?
     #include <stdio.h>
     int main()
