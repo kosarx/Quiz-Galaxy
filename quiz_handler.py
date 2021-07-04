@@ -154,7 +154,7 @@ class Quiz_Handler:
 
     
     def save_data(database, name, id, score, Quiz_Name, total):
-        log_text_file="log.txt"
+        log_text_file="static/log.txt"
 
         print("save_data for id: {}".format(id))
         conn=sql.connect(database)

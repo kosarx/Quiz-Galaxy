@@ -99,7 +99,7 @@ def questions(q):
             else: Quiz_Name=session['quiz_name'].title()
 
             Quiz_Handler.save_data(session['database'], session['user'], session['id'], session['score'], Quiz_Name=Quiz_Name, total=session['max_questions']) #registering the finished Quiz once
-            session['log_entries']=Quiz_Handler.read_from_log("log.txt") #for displaying in the /finished screen
+            session['log_entries']=Quiz_Handler.read_from_log("static/log.txt") #for displaying in the /finished screen
             return redirect(url_for("end_of_quiz")) #quiz is finished
         print("bad request: ", q) #else:
         abort(404)
