@@ -16,7 +16,7 @@ Quiz-Galaxy is a website designed to test your knowledge of programming language
 ## Technologies Used
 
 - Frontend: HTML5, CSS3, Python
-- Backend: Python/JFlask
+- Backend: Python/Flask
 - Database: SQLite3
 - Deployment: Once Heroku (RIP)
 
