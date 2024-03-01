@@ -3,3 +3,11 @@ User Kosmas finished the Python_Quiz at 18/06/2021 14:52:22 with a score of 5 ou
 -----------------------
 User Achilleas finished the Python_Quiz at 18/06/2021 16:08:30 with a score of 2 out of 5.
 -----------------------
+User Kosmas finished the C_Quiz at 01/03/2024 10:22:38 with a score of 2 out of 5.
+-----------------------
+User Kosmas finished the HTML_CSS_Quiz at 01/03/2024 10:24:43 with a score of 4 out of 5.
+-----------------------
+User Kosmas finished the Javascript_Quiz at 01/03/2024 10:27:09 with a score of 5 out of 5.
+-----------------------
+User NewGuy finished the HTML_CSS_Quiz at 01/03/2024 10:29:14 with a score of 4 out of 5.
+-----------------------
